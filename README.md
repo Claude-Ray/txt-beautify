@@ -11,11 +11,20 @@ Beautify text files for better reading experience on kindle.
 
 现在只是一个简单粗暴的脚本，要求文件编码utf-8，满足基本需求。
 
+## Usage
+```js
+const txtBeautify = require('txt-beautify');
+  
+// return a Promise
+txtBeautify(filepath, outpath);
+// or
+txtBeautify(filepath)
+  .then(defaultOutpath => { });
+```
+
 ## Todo
 ~~有时间会做一些优化~~
-- [ ] 测试
-- [ ] 文档
 - [ ] npm publish
 - [ ] 功能扩充
 - [ ] cli
-- [ ] 文件中标题优化
+- [ ] txt中标题优化

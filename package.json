@@ -1,0 +1,32 @@
+{
+  "name": "txt-beautify",
+  "version": "0.0.1",
+  "description": "Beautify text files for better reading experience on kindle.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Claude-Ray/txt-beautify.git"
+  },
+  "keywords": [
+    "kindle",
+    "text file"
+  ],
+  "author": "claude-ray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Claude-Ray/txt-beautify/issues"
+  },
+  "homepage": "https://github.com/Claude-Ray/txt-beautify#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^23.6.0"
+  }
+}
