@@ -1,4 +1,6 @@
 # txt-beautify
+[![Build Status](https://travis-ci.org/Claude-Ray/txt-beautify.svg?branch=master)](https://travis-ci.org/Claude-Ray/txt-beautify)
+
 Beautify text files for better reading experience on kindle.
 
 ## Features
@@ -10,6 +12,11 @@ Beautify text files for better reading experience on kindle.
 这里仅修饰文件内容，以便亚马逊转出格式更优美的文本。
 
 现在只是一个简单粗暴的脚本，要求文件编码utf-8，满足基本需求。
+
+## Install
+```sh
+npm install txt-beautify
+```
 
 ## Usage
 ```js
@@ -24,7 +31,6 @@ txtBeautify(filepath)
 
 ## Todo
 ~~有时间会做一些优化~~
-- [ ] npm publish
 - [ ] 功能扩充
 - [ ] cli
 - [ ] txt中标题优化
