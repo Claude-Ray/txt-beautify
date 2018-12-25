@@ -1,6 +1,6 @@
 {
   "name": "txt-beautify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Beautify text files for better reading experience on kindle.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
