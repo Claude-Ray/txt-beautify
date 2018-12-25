@@ -67,3 +67,6 @@ typings/
 
 # package-lock
 package-lock.json
+
+# Typescript dist
+dist/
