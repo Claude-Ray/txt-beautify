@@ -15,10 +15,22 @@ Beautify text files for better reading experience on kindle.
 
 ## Install
 ```sh
-npm install txt-beautify
+npm install txt-beautify -g
 ```
 
 ## Usage
+### cli
+```
+Usage: txt-beautify input_file [output_file]
+
+Beautify text files for better reading experience on kindle.
+
+Options:
+  -V, --version  output the version number
+  -h, --help     output usage information
+```
+
+### package
 ```js
 const txtBeautify = require('txt-beautify');
   
@@ -32,5 +44,5 @@ txtBeautify(filepath)
 ## Todo
 ~~有时间会做一些优化~~
 - [ ] 功能扩充
-- [ ] cli
+- [ x ] cli: 先做个最基础的凑合用
 - [ ] txt中标题优化
