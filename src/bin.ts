@@ -1,4 +1,4 @@
-#! /usr/bin/env node
+#! /usr/bin/env node --experimental-worker
 'use strict'
 
 import { Command } from 'commander'
