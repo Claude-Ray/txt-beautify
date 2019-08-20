@@ -1,0 +1,8 @@
+{
+  "indentSize": 2,
+  "newLineCharacter": "\n",
+  "insertSpaceAfterCommaDelimiter": true,
+  "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "insertSpaceBeforeFunctionParenthesis": true,
+  "insertSpaceAfterConstructor": true
+}
