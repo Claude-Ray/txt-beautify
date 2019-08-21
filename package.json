@@ -33,19 +33,19 @@
   "homepage": "https://github.com/Claude-Ray/txt-beautify#readme",
   "devDependencies": {
     "@types/commander": "^2.12.2",
-    "@types/jest": "^23.3.10",
-    "@types/node": "^10.12.18",
+    "@types/jest": "^23.3.14",
+    "@types/node": "^10.14.16",
     "jest": "^23.6.0",
     "ts-jest": "^23.10.5",
-    "tslint": "^5.12.0",
+    "tslint": "^5.19.0",
     "tslint-config-standard": "^8.0.1",
-    "typescript": "^3.2.2"
+    "typescript": "^3.5.3"
   },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
   },
   "dependencies": {
-    "commander": "^2.19.0"
+    "commander": "^2.20.0"
   }
 }

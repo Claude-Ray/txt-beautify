@@ -4,7 +4,7 @@ const CRLF = '\r\n\r\n'
 
 // @ts-ignore
 parentPort.on('message', (lines: string[] | string) => {
-  if (lines === 'exit') return process.exit()
+  if (lines === 'exit') process.exit()
 
   const data: string[] = []
 

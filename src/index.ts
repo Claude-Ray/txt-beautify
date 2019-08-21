@@ -11,7 +11,7 @@ function beautifier (filepath: string, outpath: string) {
     let cache: string[] = []
     let result = ''
 
-    const worker = new Worker(path.join(__dirname, 'work.js'))
+    const worker = new Worker(path.join(__dirname, 'worker.js'))
     worker.on('message', message => {
       result += message
     })
