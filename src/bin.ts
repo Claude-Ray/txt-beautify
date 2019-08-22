@@ -7,12 +7,13 @@ import pkg from '../package.json'
 
 const program = new Command()
 
-program.version(pkg.version)
-  .usage('input_file [output_file]')
+program
+  .version(pkg.version)
+  .arguments('<input_file> [output_file]')
   .description('Beautify text files for better reading experience on kindle.')
   .action((input, output) => {
     return beautifier(input, output)
-      .then(() => console.log('txt-beautify done'))
+      .then(outpath => console.log(`txt-beautify done: ${outpath}`))
       .catch(console.error)
   })
 
