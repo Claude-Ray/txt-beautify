@@ -2,8 +2,8 @@
 'use strict'
 
 import { Command } from 'commander'
-import beautifier = require('.')
-import * as pkg from '../package.json'
+import beautifier from '.'
+import pkg from '../package.json'
 
 const program = new Command()
 

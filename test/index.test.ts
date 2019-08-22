@@ -2,7 +2,7 @@
 
 import * as fs from 'fs'
 import * as path from 'path'
-import beautifier = require('..')
+import beautifier from '..'
 
 test('check text', async () => {
   const preFilePath = path.join(__dirname, 'before.txt')

@@ -43,7 +43,7 @@ txtBeautify(filepath)
 
 ## Todo
 ~~有时间会做一些优化~~
-- [ ] 功能扩充
+- [x] Node.js 版本高于 10.5.0 时支持 worker_threads
 - [x] cli，先做个最基础的凑合用
+- [ ] 功能扩充
 - [ ] txt中标题优化
-- [x] 多线程
